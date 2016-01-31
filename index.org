@@ -53,7 +53,7 @@ Each link below will take you to the preprint page, which has more information a
 
 
 
-#+CAPTION: This is a table with lines around and between cells
+#+CAPTION: These are the preprints.
 #+ATTR_HTML: :border 2 :rules all :frame border
 #+RESULTS: preprints
 | Preprint        | DOI                               | Journal                     | Authors                                                                                                                 |

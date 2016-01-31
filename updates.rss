@@ -13,19 +13,19 @@
     <description>News about package updates</description>
     
       <item>
-        <title>kitchingroup-9 (20160131.1846) --- preprint</title>
-        <description>The kitchingroup-9 package in MELPA has been updated to version 20160131.1846.</description>
-        <pubDate>Sun, 31 Jan 2016 18:46:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-9-20160131.1846.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-9</link>
+        <title>kitchingroup-7 (20160131.1850) --- CaPPA preprint for doi:10.1063/1.1737365</title>
+        <description>The kitchingroup-7 package in MELPA has been updated to version 20160131.1850.</description>
+        <pubDate>Sun, 31 Jan 2016 18:50:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160131.1850.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-7</link>
       </item>
     
       <item>
-        <title>kitchingroup-7 (20160131.1844) --- CaPPA preprint for doi:10.1063/1.1737365</title>
-        <description>The kitchingroup-7 package in MELPA has been updated to version 20160131.1844.</description>
-        <pubDate>Sun, 31 Jan 2016 18:44:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160131.1844.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-7</link>
+        <title>kitchingroup-9 (20160131.1849) --- preprint</title>
+        <description>The kitchingroup-9 package in MELPA has been updated to version 20160131.1849.</description>
+        <pubDate>Sun, 31 Jan 2016 18:49:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-9-20160131.1849.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-9</link>
       </item>
     
       <item>
