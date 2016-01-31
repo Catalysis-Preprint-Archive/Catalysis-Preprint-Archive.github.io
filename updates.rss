@@ -13,10 +13,18 @@
     <description>News about package updates</description>
     
       <item>
-        <title>kitchingroup-7 (20160131.1219) --- CaPPA preprint for doi:</title>
-        <description>The kitchingroup-7 package in MELPA has been updated to version 20160131.1219.</description>
-        <pubDate>Sun, 31 Jan 2016 12:19:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160131.1219.tar</guid>
+        <title>kitchingroup-43 (20160131.1802) --- preprint doi:10.1007/s11244-013-0166-3</title>
+        <description>The kitchingroup-43 package in MELPA has been updated to version 20160131.1802.</description>
+        <pubDate>Sun, 31 Jan 2016 18:02:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-43-20160131.1802.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-43</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-7 (20160131.1406) --- CaPPA preprint for doi:</title>
+        <description>The kitchingroup-7 package in MELPA has been updated to version 20160131.1406.</description>
+        <pubDate>Sun, 31 Jan 2016 14:06:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160131.1406.tar</guid>
         <link>https://melpa.org/#/kitchingroup-7</link>
       </item>
     
@@ -34,14 +42,6 @@
         <pubDate>Sun, 31 Jan 2016 10:05:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-57-20160131.1005.tar</guid>
         <link>https://melpa.org/#/kitchingroup-57</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-43 (20160131.1004) --- preprint doi:10.1007/s11244-013-0166-3</title>
-        <description>The kitchingroup-43 package in MELPA has been updated to version 20160131.1004.</description>
-        <pubDate>Sun, 31 Jan 2016 10:04:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-43-20160131.1004.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-43</link>
       </item>
     
       <item>
