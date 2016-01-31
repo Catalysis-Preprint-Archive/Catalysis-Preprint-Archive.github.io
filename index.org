@@ -37,7 +37,7 @@ To access the CaPPA archive in Emacs add this to an init file.
 
 #+BEGIN_SRC emacs-lisp :exports code
 (add-to-list 'package-archives
-	     '("cappa" . "http://catalysis-preprint-archive.github.io/cappa/preprints") t)
+	     '("cappa" . "http://catalysis-preprint-archive.github.io/preprints") t)
 #+END_SRC
 
 Then, you can install the `cappa' package and preprints using the Emacs package installer.
