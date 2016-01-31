@@ -16,10 +16,11 @@ CaPPA is accessible through this site, through Emacs, and eventually through Pyt
 * Available preprints
 Each link below will take you to the preprint page, which has more information about the preprint.
 
+#+name: preprints
 #+BEGIN_SRC emacs-lisp :exports results
 (add-to-list 'load-path "/Users/jkitchin/Catalysis-Preprint-Archive/melpa")
 (require 'cappa-utils)
-(append '(("Preprint" "Description" "DOI" "Journal" "Authors") hline)
+(append '(("Preprint" "DOI" "Journal" "Authors") hline)
 	(loop for (label . props) in (package-build-archive-alist)
 	      with doi = nil
 	      with journal = nil
@@ -45,26 +46,24 @@ Each link below will take you to the preprint page, which has more information a
 			       (nth 0 (elt props 0))
 			       (nth 1 (elt props 0))
 			       label)
-		       desc
 		       (if doi (concat "doi:" doi) "")
 		       journal
 		       authors)))
 #+END_SRC
 
-#+RESULTS:
-| Preprint        | Description                                          | DOI                           | Journal             | Authors                                                                                                                |
-|-----------------+------------------------------------------------------+-------------------------------+---------------------+------------------------------------------------------------------------------------------------------------------------|
-| [[./preprints/kitchingroup-9-20160131.1150.html][kitchingroup-9]]  | preprint                                             |                               | nil                 | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                 |
-| [[./preprints/kitchingroup-7-20160131.1406.html][kitchingroup-7]]  | CaPPA preprint for doi:                              |                               | nil                 | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                 |
-| [[./preprints/kitchingroup-57-20160131.1005.html][kitchingroup-57]] | preprint http://dx.doi.org/10.1021/acscatal.5b00538. |                               | nil                 | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                 |
-| [[./preprints/kitchingroup-46-20160131.1003.html][kitchingroup-46]] | preprint for doi:10.1021/ja5015986                   | doi:10.1021/ja5015986         | J. Am. Chem. Soc.   | John R. Kitchin <jkitchin@andrew.cmu.edu>, Ethan L. Demeter, Shayna L. Hilburg, Newell R. Washburn, Terrence J. Collin |
-| [[./preprints/kitchingroup-43-20160131.1802.html][kitchingroup-43]] | preprint doi:10.1007/s11244-013-0166-3               | doi:10.1007/s11244-013-0166-3 | Topics in Catalysis | Spencer D. Miller, Vladimir V. Pushkarev, Andrew J. Gellman, John R Kitchin <jkitchin@andrew.cmu.edu>                  |
-| [[./preprints/cappa-20160130.1736.html][cappa]]           | Catalysis Preprint Archive                           |                               | nil                 | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                 |
 
 
-** TODO Improve the table with more information about the preprints
-Maybe DOI, descriptions?
-
+#+CAPTION: This is a table with lines around and between cells
+#+ATTR_HTML: :border 2 :rules all :frame border
+#+RESULTS: preprints
+| Preprint        | DOI                               | Journal                     | Authors                                                                                                                 |
+|-----------------+-----------------------------------+-----------------------------+-------------------------------------------------------------------------------------------------------------------------|
+| [[./preprints/kitchingroup-9-20160131.1846.html][kitchingroup-9]]  | doi:10.1103/PhysRevLett.93.156801 | Physical Review Letters     | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
+| [[./preprints/kitchingroup-7-20160131.1844.html][kitchingroup-7]]  | doi:10.1063/1.1737365             | Journal of Chemical Physics | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
+| [[./preprints/kitchingroup-57-20160131.1841.html][kitchingroup-57]] | doi:10.1021/acscatal.5b00538      | ACS Catalysis               | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
+| [[./preprints/kitchingroup-46-20160131.1840.html][kitchingroup-46]] | doi:10.1021/ja5015986             | J. Am. Chem. Soc.           | John R. Kitchin <jkitchin@andrew.cmu.edu>, Ethan L. Demeter, Shayna L. Hilburg, Newell R. Washburn, Terrence J. Collins |
+| [[./preprints/kitchingroup-43-20160131.1838.html][kitchingroup-43]] | doi:10.1007/s11244-013-0166-3     | Topics in Catalysis         | Spencer D. Miller, Vladimir V. Pushkarev, Andrew J. Gellman, John R Kitchin <jkitchin@andrew.cmu.edu>                   |
+| [[./preprints/cappa-20160130.1736.html][cappa]]           |                                   | nil                         | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
 
 * Install CaPPA in Emacs
 
