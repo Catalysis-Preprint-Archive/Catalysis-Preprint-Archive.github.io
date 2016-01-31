@@ -46,7 +46,7 @@ Each link below will take you to the preprint page, which has more information a
 			       (nth 0 (elt props 0))
 			       (nth 1 (elt props 0))
 			       label)
-		       (if doi (concat "doi:" doi) "")
+		       (if doi (format "[[doi:%s][doi]]" doi) "")
 		       journal
 		       authors)))
 #+END_SRC
@@ -56,14 +56,14 @@ Each link below will take you to the preprint page, which has more information a
 #+CAPTION: These are the preprints.
 #+ATTR_HTML: :border 2 :rules all :frame border
 #+RESULTS: preprints
-| Preprint        | DOI                               | Journal                     | Authors                                                                                                                 |
-|-----------------+-----------------------------------+-----------------------------+-------------------------------------------------------------------------------------------------------------------------|
-| [[./preprints/kitchingroup-9-20160131.1846.html][kitchingroup-9]]  | doi:10.1103/PhysRevLett.93.156801 | Physical Review Letters     | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
-| [[./preprints/kitchingroup-7-20160131.1844.html][kitchingroup-7]]  | doi:10.1063/1.1737365             | Journal of Chemical Physics | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
-| [[./preprints/kitchingroup-57-20160131.1841.html][kitchingroup-57]] | doi:10.1021/acscatal.5b00538      | ACS Catalysis               | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
-| [[./preprints/kitchingroup-46-20160131.1840.html][kitchingroup-46]] | doi:10.1021/ja5015986             | J. Am. Chem. Soc.           | John R. Kitchin <jkitchin@andrew.cmu.edu>, Ethan L. Demeter, Shayna L. Hilburg, Newell R. Washburn, Terrence J. Collins |
-| [[./preprints/kitchingroup-43-20160131.1838.html][kitchingroup-43]] | doi:10.1007/s11244-013-0166-3     | Topics in Catalysis         | Spencer D. Miller, Vladimir V. Pushkarev, Andrew J. Gellman, John R Kitchin <jkitchin@andrew.cmu.edu>                   |
-| [[./preprints/cappa-20160130.1736.html][cappa]]           |                                   | nil                         | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
+| Preprint        | DOI | Journal                     | Authors                                                                                                                 |
+|-----------------+-----+-----------------------------+-------------------------------------------------------------------------------------------------------------------------|
+| [[./preprints/kitchingroup-9-20160131.1849.html][kitchingroup-9]]  | [[doi:10.1103/PhysRevLett.93.156801][doi]] | Physical Review Letters     | John Kitchin <jkitchin@andrew.cmu.edu>, Jens Norskov, Mark Barteau, Jingguang Chen                                      |
+| [[./preprints/kitchingroup-7-20160131.1850.html][kitchingroup-7]]  | [[doi:10.1063/1.1737365][doi]] | Journal of Chemical Physics | John Kitchin <jkitchin@andrew.cmu.edu>, Jens K. Nørskov, Mark A. Barteau, Jingguang G. Chen                             |
+| [[./preprints/kitchingroup-57-20160131.1841.html][kitchingroup-57]] | [[doi:10.1021/acscatal.5b00538][doi]] | ACS Catalysis               | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
+| [[./preprints/kitchingroup-46-20160131.1840.html][kitchingroup-46]] | [[doi:10.1021/ja5015986][doi]] | J. Am. Chem. Soc.           | John R. Kitchin <jkitchin@andrew.cmu.edu>, Ethan L. Demeter, Shayna L. Hilburg, Newell R. Washburn, Terrence J. Collins |
+| [[./preprints/kitchingroup-43-20160131.1838.html][kitchingroup-43]] | [[doi:10.1007/s11244-013-0166-3][doi]] | Topics in Catalysis         | Spencer D. Miller, Vladimir V. Pushkarev, Andrew J. Gellman, John R Kitchin <jkitchin@andrew.cmu.edu>                   |
+| [[./preprints/cappa-20160130.1736.html][cappa]]           |     | nil                         | John Kitchin <jkitchin@andrew.cmu.edu>                                                                                  |
 
 * Install CaPPA in Emacs
 
