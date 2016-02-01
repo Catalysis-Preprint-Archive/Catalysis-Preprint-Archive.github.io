@@ -5,7 +5,7 @@
    xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>MELPA package updates</title>
+    <title>CaPPA preprint updates</title>
     <link>https://melpa.org</link>
     <atom:link href="https://melpa.org/updates.rss" rel="self" type="application/rss+xml" />
     <language>en-us</language>
