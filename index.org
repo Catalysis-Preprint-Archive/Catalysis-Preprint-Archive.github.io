@@ -117,5 +117,10 @@ A typical recipe entry is:
 #+BEGIN_SRC text
 "kitchingroup-9":{"fetcher":"github","repo":"KitchinHUB/kitchingroup-9","files":["*"]}
 #+END_SRC
+** Roadmap
+- Search
+- Sortable preprint table
+- Analytics on downloads like MELPA does
+
 * Acknowledgements
 CaPPA is built on the shoulders of [[http://melpa.org][MELPA]].
