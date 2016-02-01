@@ -16,6 +16,8 @@ CaPPA is accessible through this site, through Emacs, and eventually through Pyt
 * Available preprints
 Each link below will take you to the preprint page, which has more information about the preprint.
 
+Here is the RSS feed: [[./updates.rss][RSS]]
+
 #+name: preprints
 #+BEGIN_SRC emacs-lisp :exports results
 (add-to-list 'load-path "/Users/jkitchin/Catalysis-Preprint-Archive/melpa")
