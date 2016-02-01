@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>CaPPA - The Catalysis Preprint Archive</title>
-<!-- 2016-01-31 Sun 18:56 -->
+<!-- 2016-01-31 Sun 19:03 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="John Kitchin" />
@@ -134,6 +134,48 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
 </head>
 <body>
 <div id="content">
@@ -181,58 +223,49 @@ Each link below will take you to the preprint page, which has more information a
 <col  class="left" />
 
 <col  class="left" />
-
-<col  class="left" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="left">Preprint</th>
 <th scope="col" class="left">DOI</th>
-<th scope="col" class="left">Journal</th>
-<th scope="col" class="left">Authors</th>
+<th scope="col" class="left">Citation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="left"><a href="./preprints/kitchingroup-9-20160131.1849.html">kitchingroup-9</a></td>
 <td class="left"><a href="http://dx.doi.org/10.1103/PhysRevLett.93.156801">doi</a></td>
-<td class="left">Physical Review Letters</td>
-<td class="left">John Kitchin &lt;jkitchin@andrew.cmu.edu&gt;, Jens Norskov, Mark Barteau, Jingguang Chen</td>
+<td class="left">, "", , : ()</td>
 </tr>
 
 <tr>
 <td class="left"><a href="./preprints/kitchingroup-7-20160131.1850.html">kitchingroup-7</a></td>
 <td class="left"><a href="http://dx.doi.org/10.1063/1.1737365">doi</a></td>
-<td class="left">Journal of Chemical Physics</td>
-<td class="left">John Kitchin &lt;jkitchin@andrew.cmu.edu&gt;, Jens K. Nørskov, Mark A. Barteau, Jingguang G. Chen</td>
+<td class="left">Kitchin, J. R. and N{\o}rskov, J. K. and Barteau, M. A. and Chen, J. G., "Modification of the Surface Electronic and Chemical Properties of {Pt}(111) By Subsurface 3d Transition Metals", Journal of Chemical Physics, 120:10240-10246 (2004)</td>
 </tr>
 
 <tr>
 <td class="left"><a href="./preprints/kitchingroup-57-20160131.1841.html">kitchingroup-57</a></td>
 <td class="left"><a href="http://dx.doi.org/10.1021/acscatal.5b00538">doi</a></td>
-<td class="left">ACS Catalysis</td>
-<td class="left">John Kitchin &lt;jkitchin@andrew.cmu.edu&gt;</td>
+<td class="left">Kitchin, John R., "Examples of Effective Data Sharing in Scientific Publishing", ACS Catalysis, 5:3894-3899 (2015)</td>
 </tr>
 
 <tr>
 <td class="left"><a href="./preprints/kitchingroup-46-20160131.1840.html">kitchingroup-46</a></td>
 <td class="left"><a href="http://dx.doi.org/10.1021/ja5015986">doi</a></td>
-<td class="left">J. Am. Chem. Soc.</td>
-<td class="left">John R. Kitchin &lt;jkitchin@andrew.cmu.edu&gt;, Ethan L. Demeter, Shayna L. Hilburg, Newell R. Washburn, Terrence J. Collins</td>
+<td class="left">Ethan L. Demeter and Shayna L. Hilburg and Newell R. Washburn and Terrence J. Collins and John R. Kitchin, "Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator", J. Am. Chem. Soc., 136:5603-5606 (2014)</td>
 </tr>
 
 <tr>
 <td class="left"><a href="./preprints/kitchingroup-43-20160131.1838.html">kitchingroup-43</a></td>
 <td class="left"><a href="http://dx.doi.org/10.1007/s11244-013-0166-3">doi</a></td>
-<td class="left">Topics in Catalysis</td>
-<td class="left">Spencer D. Miller, Vladimir V. Pushkarev, Andrew J. Gellman, John R Kitchin &lt;jkitchin@andrew.cmu.edu&gt;</td>
+<td class="left">Spencer D. Miller and Vladimir V. Pushkarev and Andrew J. Gellman and John R. Kitchin, "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers", Topics in Catalysis, 57:106-117 (2014)</td>
 </tr>
 
 <tr>
 <td class="left"><a href="./preprints/cappa-20160130.1736.html">cappa</a></td>
 <td class="left">&#xa0;</td>
-<td class="left">nil</td>
-<td class="left">John Kitchin &lt;jkitchin@andrew.cmu.edu&gt;</td>
+<td class="left">Spencer D. Miller and Vladimir V. Pushkarev and Andrew J. Gellman and John R. Kitchin, "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers", Topics in Catalysis, 57:106-117 (2014)</td>
 </tr>
 </tbody>
 </table>
@@ -341,7 +374,7 @@ CaPPA is built on the shoulders of <a href="http://melpa.org">MELPA</a>.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: John Kitchin</p>
-<p class="date">Created: 2016-01-31 Sun 18:56</p>
+<p class="date">Created: 2016-01-31 Sun 19:03</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
