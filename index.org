@@ -40,7 +40,6 @@ Each link below will take you to the preprint page, which has more information a
 		    (format "%s/%s.el" label label)
 		    package-build-working-dir))
 
-
 		(setq doi (lm-header "doi")
 		      journal (lm-header "journal")
 		      authors (mapconcat 'identity  (split-string  (lm-header "author") "\n") ", ")
@@ -58,7 +57,7 @@ Each link below will take you to the preprint page, which has more information a
 			       (nth 1 (elt props 0))
 			       label)
 		       (if doi (format "[[doi:%s][doi]]" doi) "")
-		       citation)))
+		       (if bibtex citation ""))))
 
 #+END_SRC
 
@@ -67,14 +66,16 @@ Each link below will take you to the preprint page, which has more information a
 #+CAPTION: These are the preprints.
 #+ATTR_HTML: :border 2 :rules all :frame border
 #+RESULTS: preprints
-| Preprint        | DOI | Citation                                                                                                                                                                                                                                                        |
-|-----------------+-----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [[./preprints/kitchingroup-9-20160131.1849.html][kitchingroup-9]]  | [[doi:10.1103/PhysRevLett.93.156801][doi]] | , "", , : ()                                                                                                                                                                                                                                                    |
-| [[./preprints/kitchingroup-7-20160131.1850.html][kitchingroup-7]]  | [[doi:10.1063/1.1737365][doi]] | Kitchin, J. R. and N{\o}rskov, J. K. and Barteau, M. A. and Chen, J. G., "Modification of the Surface Electronic and Chemical Properties of {Pt}(111) By Subsurface 3d Transition Metals", Journal of Chemical Physics, 120:10240-10246 (2004)                  |
-| [[./preprints/kitchingroup-57-20160131.1841.html][kitchingroup-57]] | [[doi:10.1021/acscatal.5b00538][doi]] | Kitchin, John R., "Examples of Effective Data Sharing in Scientific Publishing", ACS Catalysis, 5:3894-3899 (2015)                                                                                                                                              |
-| [[./preprints/kitchingroup-46-20160131.1840.html][kitchingroup-46]] | [[doi:10.1021/ja5015986][doi]] | Ethan L. Demeter and Shayna L. Hilburg and Newell R. Washburn and Terrence J. Collins and John R. Kitchin, "Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator", J. Am. Chem. Soc., 136:5603-5606 (2014)                                    |
-| [[./preprints/kitchingroup-43-20160131.1838.html][kitchingroup-43]] | [[doi:10.1007/s11244-013-0166-3][doi]] | Spencer D. Miller and Vladimir V. Pushkarev and Andrew J. Gellman and John R. Kitchin, "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers", Topics in Catalysis, 57:106-117 (2014) |
-| [[./preprints/cappa-20160130.1736.html][cappa]]           |     | Spencer D. Miller and Vladimir V. Pushkarev and Andrew J. Gellman and John R. Kitchin, "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers", Topics in Catalysis, 57:106-117 (2014) |
+| Preprint        | DOI | Citation                                                                                                                                                                                                                                                                                                  |
+|-----------------+-----+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [[./preprints/kitchingroup-9-20160131.1904.html][kitchingroup-9]]  | [[doi:10.1103/PhysRevLett.93.156801][doi]] | Kitchin, J. R. and N{\o}rskov, J. K. and Barteau, M. A. and Chen, J. G., "Role of Strain and Ligand Effects in the Modification of the Electronic and Chemical Properties of Bimetallic Surfaces", Physical Review Letters, 93:156801 (2004)                                                              |
+| [[./preprints/kitchingroup-7-20160131.1850.html][kitchingroup-7]]  | [[doi:10.1063/1.1737365][doi]] | Kitchin, J. R. and N{\o}rskov, J. K. and Barteau, M. A. and Chen, J. G., "Modification of the Surface Electronic and Chemical Properties of {Pt}(111) By Subsurface 3d Transition Metals", Journal of Chemical Physics, 120:10240-10246 (2004)                                                            |
+| [[./preprints/kitchingroup-62-20160131.2149.html][kitchingroup-62]] | [[doi:10.1016/j.ijggc.2015.10.026][doi]] | Alexander P. Hallenbeck and Adefemi Egbebi and Kevin P. Resnik and David Hopkinson and Shelley L. Anna and John R. Kitchin, "Comparative Microfluidic Screening of Amino Acid Salt Solutions for Post-Combustion \ce{CO2} Capture", International Journal of Greenhouse Gas Control , 43:189 - 197 (2015) |
+| [[./preprints/kitchingroup-60-20160201.652.html][kitchingroup-60]] | [[doi:10.1016/j.susc.2015.10.001][doi]] | Hari Thirumalai and John R. Kitchin, "The Role of Vdw Interactions in Coverage Dependent Adsorption Energies of Atomic Adsorbates on Pt(111) and Pd(111)", Surface Science , : -  (2015)                                                                                                                  |
+| [[./preprints/kitchingroup-57-20160131.1841.html][kitchingroup-57]] | [[doi:10.1021/acscatal.5b00538][doi]] | Kitchin, John R., "Examples of Effective Data Sharing in Scientific Publishing", ACS Catalysis, 5:3894-3899 (2015)                                                                                                                                                                                        |
+| [[./preprints/kitchingroup-46-20160131.1840.html][kitchingroup-46]] | [[doi:10.1021/ja5015986][doi]] | Ethan L. Demeter and Shayna L. Hilburg and Newell R. Washburn and Terrence J. Collins and John R. Kitchin, "Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator", J. Am. Chem. Soc., 136:5603-5606 (2014)                                                                              |
+| [[./preprints/kitchingroup-43-20160131.1838.html][kitchingroup-43]] | [[doi:10.1007/s11244-013-0166-3][doi]] | Spencer D. Miller and Vladimir V. Pushkarev and Andrew J. Gellman and John R. Kitchin, "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers", Topics in Catalysis, 57:106-117 (2014)                                           |
+| [[./preprints/cappa-20160130.1736.html][cappa]]           |     |                                                                                                                                                                                                                                                                                                           |
 
 * Install CaPPA in Emacs
 
