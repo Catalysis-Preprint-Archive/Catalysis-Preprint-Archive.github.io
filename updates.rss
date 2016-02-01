@@ -29,6 +29,14 @@
       </item>
     
       <item>
+        <title>cappa (20160201.1345) --- Catalysis Preprint Archive</title>
+        <description>The cappa package in MELPA has been updated to version 20160201.1345.</description>
+        <pubDate>Mon, 01 Feb 2016 13:45:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/cappa-20160201.1345.el</guid>
+        <link>https://melpa.org/#/cappa</link>
+      </item>
+    
+      <item>
         <title>kitchingroup-62 (20160131.2149) --- CaPPA preprint for doi:</title>
         <description>The kitchingroup-62 package in MELPA has been updated to version 20160131.2149.</description>
         <pubDate>Sun, 31 Jan 2016 21:49:00 -0500</pubDate>
@@ -74,14 +82,6 @@
         <pubDate>Sun, 31 Jan 2016 18:38:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-43-20160131.1838.tar</guid>
         <link>https://melpa.org/#/kitchingroup-43</link>
-      </item>
-    
-      <item>
-        <title>cappa (20160130.1736) --- Catalysis Preprint Archive</title>
-        <description>The cappa package in MELPA has been updated to version 20160130.1736.</description>
-        <pubDate>Sat, 30 Jan 2016 17:36:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/cappa-20160130.1736.el</guid>
-        <link>https://melpa.org/#/cappa</link>
       </item>
     
   </channel>
