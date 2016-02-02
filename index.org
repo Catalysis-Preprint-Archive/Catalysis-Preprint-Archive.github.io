@@ -101,6 +101,13 @@ The basic process to submit a preprint to CaPPA is to create a preprint reposito
 
 I am working on streamlining this process.
 
+* FAQ
+** Are there any limitations to CaPPA?
+We leverage GitHUB, which has some restrictions on file sizes. For very large datasets, it probably makes sense to host them on Zenodo or Figshare, and register your preprint here with directions in it on how to access the datasets. See https://github.com/KitchinHUB/kitchingroup-50 for an example that uses Zenodo.
+
+** What should I share in my preprint repo?
+Anything you want.
+
 * Interested in developing?
 ** User experience
 If you can contribute ideas on how to make this work well, they are welcome.
@@ -131,7 +138,3 @@ A typical recipe entry is:
 
 * Acknowledgements
 CaPPA is built on the shoulders of [[http://melpa.org][MELPA]].
-
-
-
-#+BEGIN_SRC emacs-l
