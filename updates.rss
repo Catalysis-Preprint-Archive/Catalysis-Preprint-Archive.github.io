@@ -13,6 +13,14 @@
     <description>News about package updates</description>
     
       <item>
+        <title>kitchingroup-7 (20160202.1656) --- CaPPA preprint for doi:10.1063/1.1737365</title>
+        <description>The kitchingroup-7 package in MELPA has been updated to version 20160202.1656.</description>
+        <pubDate>Tue, 02 Feb 2016 16:56:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160202.1656.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-7</link>
+      </item>
+    
+      <item>
         <title>kitchingroup-9 (20160202.1655) --- preprint</title>
         <description>The kitchingroup-9 package in MELPA has been updated to version 20160202.1655.</description>
         <pubDate>Tue, 02 Feb 2016 16:55:00 -0500</pubDate>
@@ -58,14 +66,6 @@
         <pubDate>Sun, 31 Jan 2016 21:49:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-62-20160131.2149.tar</guid>
         <link>https://melpa.org/#/kitchingroup-62</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-7 (20160131.1850) --- CaPPA preprint for doi:10.1063/1.1737365</title>
-        <description>The kitchingroup-7 package in MELPA has been updated to version 20160131.1850.</description>
-        <pubDate>Sun, 31 Jan 2016 18:50:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-7-20160131.1850.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-7</link>
       </item>
     
       <item>
