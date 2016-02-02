@@ -13,6 +13,22 @@
     <description>News about package updates</description>
     
       <item>
+        <title>kitchingroup-9 (20160202.1655) --- preprint</title>
+        <description>The kitchingroup-9 package in MELPA has been updated to version 20160202.1655.</description>
+        <pubDate>Tue, 02 Feb 2016 16:55:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-9-20160202.1655.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-9</link>
+      </item>
+    
+      <item>
+        <title>cappa (20160202.1653) --- Catalysis Preprint Archive interface</title>
+        <description>The cappa package in MELPA has been updated to version 20160202.1653.</description>
+        <pubDate>Tue, 02 Feb 2016 16:53:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/cappa-20160202.1653.el</guid>
+        <link>https://melpa.org/#/cappa</link>
+      </item>
+    
+      <item>
         <title>kitchingroup-56 (20160201.842) --- CaPPA preprint for doi:</title>
         <description>The kitchingroup-56 package in MELPA has been updated to version 20160201.842.</description>
         <pubDate>Mon, 01 Feb 2016 08:42:00 -0500</pubDate>
@@ -37,27 +53,11 @@
       </item>
     
       <item>
-        <title>cappa (20160201.1345) --- Catalysis Preprint Archive</title>
-        <description>The cappa package in MELPA has been updated to version 20160201.1345.</description>
-        <pubDate>Mon, 01 Feb 2016 13:45:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/cappa-20160201.1345.el</guid>
-        <link>https://melpa.org/#/cappa</link>
-      </item>
-    
-      <item>
         <title>kitchingroup-62 (20160131.2149) --- CaPPA preprint for doi:</title>
         <description>The kitchingroup-62 package in MELPA has been updated to version 20160131.2149.</description>
         <pubDate>Sun, 31 Jan 2016 21:49:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-62-20160131.2149.tar</guid>
         <link>https://melpa.org/#/kitchingroup-62</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-9 (20160131.1904) --- preprint</title>
-        <description>The kitchingroup-9 package in MELPA has been updated to version 20160131.1904.</description>
-        <pubDate>Sun, 31 Jan 2016 19:04:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-9-20160131.1904.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-9</link>
       </item>
     
       <item>
