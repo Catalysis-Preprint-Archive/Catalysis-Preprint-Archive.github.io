@@ -13,6 +13,22 @@
     <description>News about package updates</description>
     
       <item>
+        <title>kitchingroup-47 (20160203.847) --- Probing the Coverage Dependence of Site and Adsorbate Configurational Correlations on (111) Surfaces of Late Transition Metals</title>
+        <description>The kitchingroup-47 package in MELPA has been updated to version 20160203.847.</description>
+        <pubDate>Wed, 03 Feb 2016 08:47:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-47-20160203.847.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-47</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-44 (20160203.718) --- Identifying Potential \ce{BO2} Oxide Polymorphs for Epitaxial Growth Candidates</title>
+        <description>The kitchingroup-44 package in MELPA has been updated to version 20160203.718.</description>
+        <pubDate>Wed, 03 Feb 2016 07:18:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-44-20160203.718.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-44</link>
+      </item>
+    
+      <item>
         <title>kitchingroup-55 (20160202.1931) --- CaPPA preprint for doi:</title>
         <description>The kitchingroup-55 package in MELPA has been updated to version 20160202.1931.</description>
         <pubDate>Tue, 02 Feb 2016 19:31:00 -0500</pubDate>
