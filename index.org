@@ -136,9 +136,21 @@ Then, you can install the `cappa' package and preprints using the Emacs package 
 Use the `cappa' command to list the installed preprints, and preprints available for installation through Emacs. This is a work in progress.
 
 * Submitting a preprint
-The basic process to submit a preprint to CaPPA is to create a preprint repository (e.g. https://github.com/KitchinHUB/kitchingroup-57). Then, send a "recipe" file (e.g. https://github.com/Catalysis-Preprint-Archive/melpa/blob/cappa/recipes/kitchingroup-57) to jkitchin@andrew.cmu.edu.
+The basic process to submit a preprint to CaPPA is to create a preprint repository somewhere (the best places are gitHUB, bitbucket, or gitLAB). Your repository needs to have a file named preprint-label.el, see https://github.com/KitchinHUB/kitchingroup-9/blob/master/kitchingroup-9.el for an example.
 
-I am working on streamlining this process.
+
+Then send a recipe to John Kitchin (jkitchin@andrew.cmu.edu). A recipe looks like this:
+
+#+BEGIN_SRC emacs-lisp :exports code
+(kitchingroup-9
+ :fetcher github
+ :repo "KitchinHUB/kitchingroup-9"
+ :files ("*"))
+#+END_SRC
+
+It has a unique preprint label, and some details that are used to convert your repo into a package.
+
+You can see other recipes here: https://github.com/Catalysis-Preprint-Archive/melpa/tree/cappa/recipes
 
 * FAQ
 ** Are there any limitations to CaPPA?
@@ -153,13 +165,14 @@ Anything you want.
 No. See http://catalysis-preprint-archive.github.io/preprints/kitchingroup-46-20160131.1840.html for an example using a Word Document. It is also possible to simply share the pdf version if that is what you want.
 
 ** Do I have to use GitHUB?
-No. In principle we can pull preprints from any place MELPA supports. See https://github.com/milkypostman/melpa#recipe-format. At the time of this writing, that included  git, github, gitlab, bitbucket, bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil. We may consider alternative fetchers, perhaps from Zenodo, Figshare, and Dropbox if there is interest in those, and we can figure it out.
+No. In principle we can pull preprints from any place MELPA supports. See https://github.com/milkypostman/melpa#recipe-format. At the time of this writing, that included  git, github, gitlab, bitbucket, bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil.
 
 - See https://zenodo.org/record/45499 for an example of using Zenodo for a preprint.
 - See https://gitlab.com/jkitchin/kitchingroup-47 for a gitlab example
 - See https://bitbucket.org/jkitchin/kitchingroup-44 for a bitbucket (using git) example
 - See https://bitbucket.org/jkitchin/kitchingroup-48 for a bitbucket (using hg) example
-- See
+- See https://www.dropbox.com/sh/ci6b2fq76th2vqr/AABduyYxnFFJ2uO1HJrp50FEa?dl=1 for an example using Dropbox.
+-
 * Interested in developing?
 ** User experience
 If you can contribute ideas on how to make this work well, they are welcome.
