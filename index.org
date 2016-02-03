@@ -158,7 +158,8 @@ No. In principle we can pull preprints from any place MELPA supports. See https:
 - See https://zenodo.org/record/45499 for an example of using Zenodo for a preprint.
 - See https://gitlab.com/jkitchin/kitchingroup-47 for a gitlab example
 - See https://bitbucket.org/jkitchin/kitchingroup-44 for a bitbucket (using git) example
-
+- See https://bitbucket.org/jkitchin/kitchingroup-48 for a bitbucket (using hg) example
+- See
 * Interested in developing?
 ** User experience
 If you can contribute ideas on how to make this work well, they are welcome.
