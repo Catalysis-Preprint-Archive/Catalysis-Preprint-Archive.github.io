@@ -29,11 +29,19 @@
       </item>
     
       <item>
-        <title>kitchingroup-42 (20160203.1050) --- Relating the Electronic Structure and Reactivity of the 3d Transition Metal Monoxide Surfaces</title>
-        <description>The kitchingroup-42 package in MELPA has been updated to version 20160203.1050.</description>
-        <pubDate>Wed, 03 Feb 2016 10:50:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-42-20160203.1050.tar</guid>
+        <title>kitchingroup-42 (20160203.1148) --- Relating the Electronic Structure and Reactivity of the 3d Transition Metal Monoxide Surfaces</title>
+        <description>The kitchingroup-42 package in MELPA has been updated to version 20160203.1148.</description>
+        <pubDate>Wed, 03 Feb 2016 11:48:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-42-20160203.1148.tar</guid>
         <link>https://melpa.org/#/kitchingroup-42</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-53 (20160203.1147) --- Accurate Electronic and Chemical Properties of 3d Transition Metal Oxides Using a Calculated Linear Response {U} and a {DFT + U(V)} Method</title>
+        <description>The kitchingroup-53 package in MELPA has been updated to version 20160203.1147.</description>
+        <pubDate>Wed, 03 Feb 2016 11:47:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-53-20160203.1147.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-53</link>
       </item>
     
       <item>

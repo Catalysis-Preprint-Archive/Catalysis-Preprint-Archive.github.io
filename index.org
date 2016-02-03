@@ -51,6 +51,9 @@ Here is the RSS feed: [[./updates.rss][RSS]]
      ((eq 'zenodo (plist-get data :fetcher))
       (format "<a href=\"%s\"><img src=\"./zenodo.ico\"></a>"
 	      (plist-get data :url)))
+     ((eq 'dropbox (plist-get data :fetcher))
+      (format "<a href=\"%s\"><img src=\"./dropbox.png\"></a>"
+	      (plist-get data :url)))
      (t
       "Unknown repo"))))
 
@@ -145,6 +148,10 @@ No. See http://catalysis-preprint-archive.github.io/preprints/kitchingroup-46-20
 
 ** Do I have to use GitHUB?
 No. In principle we can pull preprints from any place MELPA supports. See https://github.com/milkypostman/melpa#recipe-format. At the time of this writing, that included  git, github, gitlab, bitbucket, bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil. We may consider alternative fetchers, perhaps from Zenodo, Figshare, and Dropbox if there is interest in those, and we can figure it out.
+
+- See https://zenodo.org/record/45499 for an example of using Zenodo for a preprint.
+- See https://gitlab.com/jkitchin/kitchingroup-47 for a gitlab example
+- See https://bitbucket.org/jkitchin/kitchingroup-44 for a bitbucket (using git) example
 
 * Interested in developing?
 ** User experience
