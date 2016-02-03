@@ -2,6 +2,18 @@
 #+author: John Kitchin
 #+options: toc:nil
 
+#+BEGIN_HTML
+<!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+<!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
+<form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+  <input type="hidden" name="cref" value="" />
+  <input type="hidden" name="ie" value="utf-8" />
+  <input type="hidden" name="hl" value="" />
+  <input name="q" type="text" size="40" />
+  <input type="submit" name="sa" value="Search" />
+</form>
+<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+#+END_HTML
 
 * About CaPPA
 The Catalysis Preprint Archive provides access to preprints of published papers in the field of catalysis. The goal is to provide a curated, aggregated repository of the preprints, prepared by the authors. These repositories will ideally contain:
@@ -103,13 +115,15 @@ I am working on streamlining this process.
 
 * FAQ
 ** Are there any limitations to CaPPA?
-We leverage GitHUB, which has some restrictions on file sizes. For example, the package representing your preprint cannot exceed 100 MB. For very large datasets, it probably makes sense to host them on Zenodo or Figshare, and register your preprint here with directions in it on how to access the datasets. See https://github.com/KitchinHUB/kitchingroup-50 for an example that uses Zenodo. See  https://github.com/KitchinHUB/kitchingroup-55 for an example that only shares the manuscript and supporting information through CaPPA, but makes the data available in the GitHUB repo and via Zenodo.
+We leverage GitHUB, which has some restrictions on file sizes. For example, the package representing your preprint cannot exceed 100 MB.  It is not essential to include all your data in CaPPA, as the data is available through your repository. CaPPA serves as an aggregator at this point.
+
+For very large datasets, it probably makes sense to host them on Zenodo or Figshare, and register your preprint here with directions in it on how to access the datasets. See https://github.com/KitchinHUB/kitchingroup-50 for an example that uses Zenodo to share about 1.8 GB of computational data. See https://github.com/Catalysis-Preprint-Archive/melpa/blob/cappa/recipes/kitchingroup-55 for an example recipe that only shares the manuscript and supporting information through CaPPA, but makes the data available in the GitHUB repo and via Zenodo.
 
 ** What should I share in my preprint repo?
 Anything you want.
 
 ** Do I have use LaTeX?
-No. See http://catalysis-preprint-archive.github.io/preprints/kitchingroup-46-20160131.1840.html for an example using a Word Document.
+No. See http://catalysis-preprint-archive.github.io/preprints/kitchingroup-46-20160131.1840.html for an example using a Word Document. It is also possible to simply share the pdf version if that is what you want.
 
 ** Do I have to use GitHUB?
 No. In principle we can pull preprints from any place MELPA supports. See https://github.com/milkypostman/melpa#recipe-format. At the time of this writing, that included  git, github, gitlab, bitbucket, bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil. We may consider alternative fetchers, perhaps from Zenodo, Figshare, and Dropbox if there is interest in those, and we can figure it out.
