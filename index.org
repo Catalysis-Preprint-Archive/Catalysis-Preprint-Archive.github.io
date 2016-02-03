@@ -48,6 +48,9 @@ Here is the RSS feed: [[./updates.rss][RSS]]
      ((eq 'gitlab (plist-get data :fetcher))
       (format "<a href=\"http://gitlab.com/%s\"><img src=\"./gitlab.ico\">"
 	      (plist-get data :repo)))
+     ((eq 'zenodo (plist-get data :fetcher))
+      (format "<a href=\"%s\"><img src=\"./zenodo.ico\"></a>"
+	      (plist-get data :url)))
      (t
       "Unknown repo"))))
 
