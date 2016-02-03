@@ -103,7 +103,7 @@ I am working on streamlining this process.
 
 * FAQ
 ** Are there any limitations to CaPPA?
-We leverage GitHUB, which has some restrictions on file sizes. For very large datasets, it probably makes sense to host them on Zenodo or Figshare, and register your preprint here with directions in it on how to access the datasets. See https://github.com/KitchinHUB/kitchingroup-50 for an example that uses Zenodo.
+We leverage GitHUB, which has some restrictions on file sizes. For example, the package representing your preprint cannot exceed 100 MB. For very large datasets, it probably makes sense to host them on Zenodo or Figshare, and register your preprint here with directions in it on how to access the datasets. See https://github.com/KitchinHUB/kitchingroup-50 for an example that uses Zenodo. See  https://github.com/KitchinHUB/kitchingroup-55 for an example that only shares the manuscript and supporting information through CaPPA, but makes the data available in the GitHUB repo and via Zenodo.
 
 ** What should I share in my preprint repo?
 Anything you want.
