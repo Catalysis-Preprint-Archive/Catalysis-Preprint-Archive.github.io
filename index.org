@@ -108,6 +108,12 @@ We leverage GitHUB, which has some restrictions on file sizes. For very large da
 ** What should I share in my preprint repo?
 Anything you want.
 
+** Do I have use LaTeX?
+No. See http://catalysis-preprint-archive.github.io/preprints/kitchingroup-46-20160131.1840.html for an example using a Word Document.
+
+** Do I have to use GitHUB?
+No. In principle we can pull preprints from any place MELPA supports. See https://github.com/milkypostman/melpa#recipe-format. At the time of this writing, that included  git, github, gitlab, bitbucket, bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil. We may consider alternative fetchers, perhaps from Zenodo, Figshare, and Dropbox if there is interest in those, and we can figure it out.
+
 * Interested in developing?
 ** User experience
 If you can contribute ideas on how to make this work well, they are welcome.
