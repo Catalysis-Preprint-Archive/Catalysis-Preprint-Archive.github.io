@@ -29,10 +29,10 @@
       </item>
     
       <item>
-        <title>kitchingroup-42 (20160203.1148) --- Relating the Electronic Structure and Reactivity of the 3d Transition Metal Monoxide Surfaces</title>
-        <description>The kitchingroup-42 package in MELPA has been updated to version 20160203.1148.</description>
-        <pubDate>Wed, 03 Feb 2016 11:48:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-42-20160203.1148.tar</guid>
+        <title>kitchingroup-42 (20160203.1151) --- Relating the Electronic Structure and Reactivity of the 3d Transition Metal Monoxide Surfaces</title>
+        <description>The kitchingroup-42 package in MELPA has been updated to version 20160203.1151.</description>
+        <pubDate>Wed, 03 Feb 2016 11:51:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-42-20160203.1151.tar</guid>
         <link>https://melpa.org/#/kitchingroup-42</link>
       </item>
     
@@ -42,6 +42,14 @@
         <pubDate>Wed, 03 Feb 2016 11:47:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-53-20160203.1147.tar</guid>
         <link>https://melpa.org/#/kitchingroup-53</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-48 (20160203.1118) --- Effects of Concentration, Crystal Structure, Magnetism, and Electronic Structure Method on First-Principles Oxygen Vacancy Formation Energy Trends in Perovskites</title>
+        <description>The kitchingroup-48 package in MELPA has been updated to version 20160203.1118.</description>
+        <pubDate>Wed, 03 Feb 2016 11:18:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-48-20160203.1118.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-48</link>
       </item>
     
       <item>
