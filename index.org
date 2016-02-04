@@ -57,6 +57,9 @@ Here is the RSS feed: [[./updates.rss][RSS]]
      ((eq 'dropbox (plist-get data :fetcher))
       (format "<a href=\"%s\"><img src=\"./dropbox.png\"></a>"
 	      (plist-get data :url)))
+     ((eq 'figshare (plist-get data :fetcher))
+      (format "<a href=\"%s\"><img src=\"./figshare.png\"></a>"
+	      (plist-get data :url)))
      (t
       "Unknown repo"))))
 
