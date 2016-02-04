@@ -60,6 +60,9 @@ Here is the RSS feed: [[./updates.rss][RSS]]
      ((eq 'figshare (plist-get data :fetcher))
       (format "<a href=\"%s\"><img src=\"./figshare.png\"></a>"
 	      (plist-get data :url)))
+     ((eq 'gdrive (plist-get data :fetcher))
+      (format "<a href=\"%s\"><img src=\"./gdrive.png\"></a>"
+	      (plist-get data :url)))
      (t
       "Unknown repo"))))
 
@@ -175,7 +178,13 @@ No. In principle we can pull preprints from any place MELPA supports. See https:
 - See https://bitbucket.org/jkitchin/kitchingroup-44 for a bitbucket (using git) example
 - See https://bitbucket.org/jkitchin/kitchingroup-48 for a bitbucket (using hg) example
 - See https://www.dropbox.com/sh/ci6b2fq76th2vqr/AABduyYxnFFJ2uO1HJrp50FEa?dl=1 for an example using Dropbox.
--
+
+
+In order of preference:
+- GitHUB, Gitlab, bitbucket
+- Zenodo, Figshare (these are not flexible at modifying the contents, so if you make mistakes setting up the preprint it is more difficult to fix.)
+- Dropbox, Google Drive (these do not offer the version control that others offer)
+
 * Interested in developing?
 ** User experience
 If you can contribute ideas on how to make this work well, they are welcome.
