@@ -62,7 +62,8 @@ Here is the RSS feed: [[./updates.rss][RSS]]
 	      (plist-get data :url)))
      ((eq 'gdrive (plist-get data :fetcher))
       (format "<a href=\"%s\"><img src=\"./gdrive.png\"></a>"
-	      (plist-get data :url)))
+	      (format "https://drive.google.com/uc?export=download&id=%s"
+		     (plist-get data :id))))
      (t
       "Unknown repo"))))
 
