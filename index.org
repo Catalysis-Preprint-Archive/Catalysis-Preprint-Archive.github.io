@@ -4,7 +4,9 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 * About CaPPA
-The Catalysis Preprint Archive provides access to preprints of published papers in the field of catalysis. The goal is to provide a curated, aggregated repository of the preprints, prepared by the authors. We aim to make sharing our work and data as easy as possible.
+The Catalysis Preprint Archive provides access to preprints of published papers in the field of catalysis. The goal is to provide a curated, aggregated repository of the preprints, associated data, and code, as prepared by the authors. We aim to make sharing our work and data as easy as possible. CaPPA supports aggregation of preprint repositories from [[http://github.com][GitHub]], [[http://gitlab.com][GitLab]], [[http://bitbucket.com][bitbucket]], and arbitrary git servers. We also can aggregate from publicly visible  bazaar (bzr), mercurial (hg), subversion (svn), cvs, darcs, and fossil repositories. We can aggregate from [[http://zenodo.org][Zenodo]] and [[http://figshare.com][FigShare]], as well as Dropbox and Google Drive. We can aggregate from any zip-file that is publicly accessible by a URL. If you make your preprint available somehow, we can probably aggregate it.
+
+This project is in the pre-alpha stage of development. It will probably change a lot as it develops. See the [[id:E2C72F79-6CF7-4D6D-80CA-D76673005DF0][Roadmap]] for directions we are interested in considering.
 
 * Available preprints
 Each link below will take you to the preprint page, which has more information about the preprint.
@@ -24,7 +26,9 @@ Each link below will take you to the preprint page, which has more information a
 <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
 #+END_HTML
 
-Here is the RSS feed: [[./updates.rss][RSS]]
+
+
+Here is the RSS feed: @@html:<a href="./updates.rss"><img src="feed-icon-28x28.png"></a>@@.
 
 
 #+name: preprints
@@ -210,9 +214,28 @@ A typical recipe entry is:
 "kitchingroup-9":{"fetcher":"github","repo":"KitchinHUB/kitchingroup-9","files":["*"]}
 #+END_SRC
 ** Roadmap
-- Search
-- Sortable preprint table
-- Analytics on downloads like MELPA does
+   :PROPERTIES:
+   :ID:       E2C72F79-6CF7-4D6D-80CA-D76673005DF0
+   :END:
+
+*** Analytics on downloads
+Eventually we need to be able to see what preprints have been downloaded or accessed. One of our hypotheses is the availability of preprints will improve the visibility and citations of the papers. I view this as a high priority. I currently have Google Analytics setup for CaPPA.
+
+*** Better metadata on preprints
+This could be useful to find preprints funded by a grant, or by authors, or by keywords etc...
+
+*** Alternative packaging formats
+Right now we leverage the Emacs package format because the framework exists, and it is really useful. Alternative package formats might have benefits too, e.g. as a Python package or Ruby gem. Probably these can all be built from one recipe if the metadata is available to construct the required files.
+
+*** Search
+At the moment, we use a google search widget, which does not seem to be able to find anything.
+
+*** Sortable preprint table
+Eventually we hope there are hundreds of preprints in CaPPA. At that point being able to filter/search the table will be necessary to help find things.
+
+*** Consider moving to a static server
+CaPPA is hosted on GitHUB now. This has some advantages, like reliability, and collaborative maintenance. It may be incompatible with the analytics though, and it does limit the file size of a file to 100 MB, which does not allow arbitary data to be stored in CaPPA.
+
 
 * Acknowledgements
 CaPPA is built on the shoulders of [[http://melpa.org][MELPA]].
