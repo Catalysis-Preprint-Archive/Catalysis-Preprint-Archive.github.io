@@ -13,6 +13,14 @@
     <description>News about package updates</description>
     
       <item>
+        <title>kitchingroup-51 (20160207.1756) --- Core-level shifts in Cu-Pd alloys as a function of bulk composition and structure</title>
+        <description>The kitchingroup-51 package in MELPA has been updated to version 20160207.1756.</description>
+        <pubDate>Sun, 07 Feb 2016 17:56:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-51-20160207.1756.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-51</link>
+      </item>
+    
+      <item>
         <title>kitchingroup-9 (20160204.1515) --- Role of Strain and Ligand Effects in the Modification of the Electronic and Chemical Properties of Bimetallic Surfaces</title>
         <description>The kitchingroup-9 package in MELPA has been updated to version 20160204.1515.</description>
         <pubDate>Thu, 04 Feb 2016 15:15:00 -0500</pubDate>
@@ -29,19 +37,19 @@
       </item>
     
       <item>
-        <title>kitchingroup-62 (20160204.1513) --- Comparative Microfluidic Screening of Amino Acid Salt Solutions for Post-Combustion \ce{CO2} Capture</title>
-        <description>The kitchingroup-62 package in MELPA has been updated to version 20160204.1513.</description>
-        <pubDate>Thu, 04 Feb 2016 15:13:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-62-20160204.1513.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-62</link>
-      </item>
-    
-      <item>
         <title>kitchingroup-60 (20160204.1513) --- The Role of Vdw Interactions in Coverage Dependent Adsorption Energies of Atomic Adsorbates on Pt(111) and Pd(111)</title>
         <description>The kitchingroup-60 package in MELPA has been updated to version 20160204.1513.</description>
         <pubDate>Thu, 04 Feb 2016 15:13:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-60-20160204.1513.tar</guid>
         <link>https://melpa.org/#/kitchingroup-60</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-62 (20160204.1513) --- Comparative Microfluidic Screening of Amino Acid Salt Solutions for Post-Combustion \ce{CO2} Capture</title>
+        <description>The kitchingroup-62 package in MELPA has been updated to version 20160204.1513.</description>
+        <pubDate>Thu, 04 Feb 2016 15:13:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-62-20160204.1513.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-62</link>
       </item>
     
       <item>
@@ -85,19 +93,19 @@
       </item>
     
       <item>
-        <title>kitchingroup-46 (20160204.1508) --- Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator</title>
-        <description>The kitchingroup-46 package in MELPA has been updated to version 20160204.1508.</description>
-        <pubDate>Thu, 04 Feb 2016 15:08:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-46-20160204.1508.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-46</link>
-      </item>
-    
-      <item>
         <title>kitchingroup-43 (20160204.1508) --- Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers</title>
         <description>The kitchingroup-43 package in MELPA has been updated to version 20160204.1508.</description>
         <pubDate>Thu, 04 Feb 2016 15:08:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-43-20160204.1508.tar</guid>
         <link>https://melpa.org/#/kitchingroup-43</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-46 (20160204.1508) --- Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator</title>
+        <description>The kitchingroup-46 package in MELPA has been updated to version 20160204.1508.</description>
+        <pubDate>Thu, 04 Feb 2016 15:08:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-46-20160204.1508.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-46</link>
       </item>
     
       <item>
