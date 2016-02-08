@@ -1,4 +1,4 @@
-#+TITLE: CaPPA - The Catalysis Preprint Archive
+#+TITLE: CaPPA - The Catalysis Preprint Archive  @@html:<a href="./updates.rss"><img src="feed-icon-28x28.png"></a>@@
 #+author: John Kitchin
 #+options: toc:nil
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -28,10 +28,6 @@ Each link below will take you to the preprint page, which has more information a
 </script>
 <gcse:search></gcse:search>
 #+END_HTML
-
-
-
-Here is the RSS feed: @@html:<a href="./updates.rss"><img src="feed-icon-28x28.png"></a>@@.
 
 
 #+name: preprints
