@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="kitchingroup-29">
+    <titleInfo>
+        <title>Identification of Sulfur-Tolerant Bimetallic Surfaces Using DFT Parametrized Models and Atomistic Thermodynamics</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nilay</namePart>
+        <namePart type="family">Inoglu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ACS Catalysis</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">null</identifier>
+    </relatedItem>
+    <abstract>The identification of sulfur-tolerant alloys for catalytic applications is difficult due to the combinatorially large number of alloy compositions and surface structures that may be considered. Density functional theory calculations (DFT) are not fast enough to enumerate all the possible structures and their sulfur tolerance. In this work, a DFT parametrized algebraic model that accounts for structure and composition was used to estimate the d-band properties and sulfur adsorption energies of 370 transition metal-based bimetallic alloy surfaces. The estimated properties were validated by DFT calculations for 110 of the surface structures. We then utilized an atomistic thermodynamic framework that includes surface segregation, the presence of adsorbates, and effects of environmental conditions to identify alloy compositions and structures with enhanced sulfur tolerance that are likely to be stable under the environmental conditions. As a case study, we show how this database can be used to identify sulfur-tolerant Cu-based catalysts and compare the results with what is known about these catalysts experimentally.</abstract>
+    <identifier type="citekey">kitchingroup-29</identifier>
+    <identifier type="doi">10.1021/cs200039t</identifier>
+    <part>
+        <date>2011</date>
+        <extent unit="page">
+            <start>399</start>
+            <end>407</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

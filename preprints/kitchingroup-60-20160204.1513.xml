@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="thirumalai-2015-pt-pd">
+    <titleInfo>
+        <title>The Role of Vdw Interactions in Coverage Dependent Adsorption Energies of Atomic Adsorbates on Pt(111) and Pd(111)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Hari</namePart>
+        <namePart type="family">Thirumalai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Surface Science</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">0039-6028</identifier>
+    </relatedItem>
+    <identifier type="citekey">thirumalai-2015-pt-pd</identifier>
+    <identifier type="doi">10.1016/j.susc.2015.10.001</identifier>
+    <location>
+        <url>http://www.sciencedirect.com/science/article/pii/S0039602815003052</url>
+    </location>
+    <part>
+        <date>2015</date>
+    </part>
+</mods>
+</modsCollection>
