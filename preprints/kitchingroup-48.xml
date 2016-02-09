@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="curnan-2014-effec-concen">
+    <titleInfo>
+        <title>Effects of Concentration, Crystal Structure, Magnetism, and Electronic Structure Method on First-Principles Oxygen Vacancy Formation Energy Trends in Perovskites</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Curnan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>The Journal of Physical Chemistry C</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <subject>
+        <topic>orgmode</topic>
+    </subject>
+    <identifier type="citekey">curnan-2014-effec-concen</identifier>
+    <identifier type="doi">10.1021/jp507957n</identifier>
+    <location>
+        <url>http://dx.doi.org/10.1021/jp507957n</url>
+    </location>
+    <part>
+        <date>2014</date>
+        <detail type="volume"><number>118</number></detail>
+        <detail type="issue"><number>49</number></detail>
+        <extent unit="page">
+            <start>28776</start>
+            <end>28790</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

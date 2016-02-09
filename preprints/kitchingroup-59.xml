@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="xu-2015-tunin-oxide">
+    <titleInfo>
+        <title>Tuning Oxide Activity Through Modification of the Crystal and Electronic Structure</title>
+        <subTitle>From Strain To Potential Polymorphs</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zhongnan</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Phys. Chem. Chem. Phys.</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <subject>
+        <topic>orgmode,</topic>
+    </subject>
+    <identifier type="citekey">xu-2015-tunin-oxide</identifier>
+    <identifier type="doi">10.1039/c5cp04840k</identifier>
+    <location>
+        <url>http://dx.doi.org/10.1039/C5CP04840K</url>
+    </location>
+    <part>
+        <date>2015</date>
+        <detail type="volume"><number>17</number></detail>
+        <extent unit="page">
+            <start>28943</start>
+            <end>28949</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="kitchin-2015-examp">
+    <titleInfo>
+        <title>Examples of Effective Data Sharing in Scientific Publishing</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ACS Catalysis</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">kitchin-2015-examp</identifier>
+    <identifier type="doi">10.1021/acscatal.5b00538</identifier>
+    <location>
+        <url> http://dx.doi.org/10.1021/acscatal.5b00538 </url>
+    </location>
+    <part>
+        <date>2015</date>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>3894</start>
+            <end>3899</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

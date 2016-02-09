@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="kitchin-2004-role">
+    <titleInfo>
+        <title>Role of Strain and Ligand Effects in the Modification of the Electronic and Chemical Properties of Bimetallic Surfaces</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Nørskov</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Barteau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Physical Review Letters</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">0031-9007</identifier>
+    </relatedItem>
+    <abstract>Periodic density functional calculations are used to illustrate how the combination of strain and ligand effects modify the electronic and surface chemical properties of Ni, Pd, and Pt monolayers supported on other transition metals. Strain and the ligand effects are shown to change the width of the surface d band, which subsequently moves up or down in energy to maintain a constant band filling. Chemical properties such as the dissociative adsorption energy of hydrogen are controlled by changes induced in the average energy of the d band by modification of the d-band width.</abstract>
+    <identifier type="citekey">kitchin-2004-role</identifier>
+    <identifier type="doi">10.1103/PhysRevLett.93.156801</identifier>
+    <part>
+        <date>2004</date>
+        <detail type="volume"><number>93</number></detail>
+        <detail type="issue"><number>15</number></detail>
+        <detail type="page"><number>156801</number></detail>
+    </part>
+</mods>
+</modsCollection>

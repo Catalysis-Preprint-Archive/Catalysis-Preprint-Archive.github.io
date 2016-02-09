@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="kitchin-2004-modif-pt">
+    <titleInfo>
+        <title>Modification of the Surface Electronic and Chemical Properties of Pt(111) By Subsurface 3d Transition Metals</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Nørskov</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Barteau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Chemical Physics</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+        <identifier type="issn">0021-9606</identifier>
+    </relatedItem>
+    <abstract>The modification of the electronic and chemical properties of Pt(111) surfaces by subsurface 3d transition metals was studied using density-functional theory. In each case investigated, the Pt surface d-band was broadened and lowered in energy by interactions with the subsurface 3d metals, resulting in weaker dissociative adsorption energies of hydrogen and oxygen on these surfaces. The magnitude of the decrease in adsorption energy was largest for the early 3d transition metals and smallest for the late 3d transition metals. In some cases, dissociative adsorption was calculated to be endothermic. The surfaces investigated in this study had no lateral strain in them, demonstrating that strain is not a necessary factor in the modification of bimetallic surface properties. The implications of these findings are discussed in the context of c talyst design, particularly for fuel cell electrocatalysts. (C) 2004 American Institute of Physics.</abstract>
+    <identifier type="citekey">kitchin-2004-modif-pt</identifier>
+    <identifier type="doi">10.1063/1.1737365</identifier>
+    <part>
+        <date>2004</date>
+        <detail type="volume"><number>120</number></detail>
+        <detail type="issue"><number>21</number></detail>
+        <extent unit="page">
+            <start>10240</start>
+            <end>10246</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

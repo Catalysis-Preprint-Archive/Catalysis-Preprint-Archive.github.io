@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="xu-2015-linear-respon">
+    <titleInfo>
+        <title>A Linear Response DFT+U Study of Trends in the Oxygen Evolution Activity of Transition Metal Rutile Dioxides</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zhongnan</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jan</namePart>
+        <namePart type="family">Rossmeisl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kitchin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>The Journal of Physical Chemistry C</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">xu-2015-linear-respon</identifier>
+    <identifier type="doi">10.1021/jp511426q</identifier>
+    <location>
+        <url> http://dx.doi.org/10.1021/jp511426q </url>
+    </location>
+    <part>
+        <date>2015</date>
+        <detail type="volume"><number>119</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>4827</start>
+            <end>4833</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>
