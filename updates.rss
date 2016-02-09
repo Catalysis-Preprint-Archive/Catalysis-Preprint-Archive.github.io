@@ -13,11 +13,99 @@
     <description>News about package updates</description>
     
       <item>
-        <title>kitchingroup-29 (20160209.1518) --- Identification of Sulfur-Tolerant Bimetallic Surfaces Using {DFT} Parametrized Models and Atomistic Thermodynamics</title>
-        <description>The kitchingroup-29 package in MELPA has been updated to version 20160209.1518.</description>
-        <pubDate>Tue, 09 Feb 2016 15:18:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-29-20160209.1518.tar</guid>
+        <title>kitchingroup-29 (20160209.1649) --- Identification of Sulfur-Tolerant Bimetallic Surfaces Using {DFT} Parametrized Models and Atomistic Thermodynamics</title>
+        <description>The kitchingroup-29 package in MELPA has been updated to version 20160209.1649.</description>
+        <pubDate>Tue, 09 Feb 2016 16:49:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-29-20160209.1649.tar</guid>
         <link>https://melpa.org/#/kitchingroup-29</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-52 (20160209.1645) --- Relationships Between the Surface Electronic and Chemical Properties of Doped 4d and 5d Late Transition Metal Dioxides</title>
+        <description>The kitchingroup-52 package in MELPA has been updated to version 20160209.1645.</description>
+        <pubDate>Tue, 09 Feb 2016 16:45:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-52-20160209.1645.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-52</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-53 (20160209.1645) --- Accurate Electronic and Chemical Properties of 3d Transition Metal Oxides Using a Calculated Linear Response {U} and a {DFT + U(V)} Method</title>
+        <description>The kitchingroup-53 package in MELPA has been updated to version 20160209.1645.</description>
+        <pubDate>Tue, 09 Feb 2016 16:45:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-53-20160209.1645.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-53</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-44 (20160209.1558) --- Identifying Potential \ce{BO2} Oxide Polymorphs for Epitaxial Growth Candidates</title>
+        <description>The kitchingroup-44 package in MELPA has been updated to version 20160209.1558.</description>
+        <pubDate>Tue, 09 Feb 2016 15:58:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-44-20160209.1558.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-44</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-46 (20160209.1557) --- Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator</title>
+        <description>The kitchingroup-46 package in MELPA has been updated to version 20160209.1557.</description>
+        <pubDate>Tue, 09 Feb 2016 15:57:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-46-20160209.1557.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-46</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-47 (20160209.1557) --- Probing the Coverage Dependence of Site and Adsorbate Configurational Correlations on (111) Surfaces of Late Transition Metals</title>
+        <description>The kitchingroup-47 package in MELPA has been updated to version 20160209.1557.</description>
+        <pubDate>Tue, 09 Feb 2016 15:57:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-47-20160209.1557.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-47</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-48 (20160209.1556) --- Effects of Concentration, Crystal Structure, Magnetism, and Electronic Structure Method on First-Principles Oxygen Vacancy Formation Energy Trends in Perovskites</title>
+        <description>The kitchingroup-48 package in MELPA has been updated to version 20160209.1556.</description>
+        <pubDate>Tue, 09 Feb 2016 15:56:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-48-20160209.1556.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-48</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-55 (20160209.1548) --- Alkaline Electrolyte and Fe Impurity Effects on the Performance and Active-Phase Structure of {NiOOH} Thin Films for {OER} Catalysis Applications</title>
+        <description>The kitchingroup-55 package in MELPA has been updated to version 20160209.1548.</description>
+        <pubDate>Tue, 09 Feb 2016 15:48:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-55-20160209.1548.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-55</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-56 (20160209.1547) --- Data Sharing in Surface Science</title>
+        <description>The kitchingroup-56 package in MELPA has been updated to version 20160209.1547.</description>
+        <pubDate>Tue, 09 Feb 2016 15:47:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-56-20160209.1547.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-56</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-57 (20160209.1547) --- Examples of Effective Data Sharing in Scientific Publishing</title>
+        <description>The kitchingroup-57 package in MELPA has been updated to version 20160209.1547.</description>
+        <pubDate>Tue, 09 Feb 2016 15:47:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-57-20160209.1547.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-57</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-58 (20160209.1546) --- Investigating the Energetic Ordering of Stable and Metastable TiO2 Polymorphs Using DFT+U and Hybrid Functionals</title>
+        <description>The kitchingroup-58 package in MELPA has been updated to version 20160209.1546.</description>
+        <pubDate>Tue, 09 Feb 2016 15:46:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-58-20160209.1546.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-58</link>
+      </item>
+    
+      <item>
+        <title>kitchingroup-60 (20160209.1535) --- The Role of Vdw Interactions in Coverage Dependent Adsorption Energies of Atomic Adsorbates on Pt(111) and Pd(111)</title>
+        <description>The kitchingroup-60 package in MELPA has been updated to version 20160209.1535.</description>
+        <pubDate>Tue, 09 Feb 2016 15:35:00 -0500</pubDate>
+        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-60-20160209.1535.tar</guid>
+        <link>https://melpa.org/#/kitchingroup-60</link>
       </item>
     
       <item>
@@ -45,51 +133,11 @@
       </item>
     
       <item>
-        <title>kitchingroup-60 (20160204.1513) --- The Role of Vdw Interactions in Coverage Dependent Adsorption Energies of Atomic Adsorbates on Pt(111) and Pd(111)</title>
-        <description>The kitchingroup-60 package in MELPA has been updated to version 20160204.1513.</description>
-        <pubDate>Thu, 04 Feb 2016 15:13:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-60-20160204.1513.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-60</link>
-      </item>
-    
-      <item>
         <title>kitchingroup-62 (20160204.1513) --- Comparative Microfluidic Screening of Amino Acid Salt Solutions for Post-Combustion \ce{CO2} Capture</title>
         <description>The kitchingroup-62 package in MELPA has been updated to version 20160204.1513.</description>
         <pubDate>Thu, 04 Feb 2016 15:13:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-62-20160204.1513.tar</guid>
         <link>https://melpa.org/#/kitchingroup-62</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-58 (20160204.1512) --- Investigating the Energetic Ordering of Stable and Metastable TiO2 Polymorphs Using DFT+U and Hybrid Functionals</title>
-        <description>The kitchingroup-58 package in MELPA has been updated to version 20160204.1512.</description>
-        <pubDate>Thu, 04 Feb 2016 15:12:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-58-20160204.1512.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-58</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-57 (20160204.1511) --- Examples of Effective Data Sharing in Scientific Publishing</title>
-        <description>The kitchingroup-57 package in MELPA has been updated to version 20160204.1511.</description>
-        <pubDate>Thu, 04 Feb 2016 15:11:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-57-20160204.1511.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-57</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-56 (20160204.1511) --- Data Sharing in Surface Science</title>
-        <description>The kitchingroup-56 package in MELPA has been updated to version 20160204.1511.</description>
-        <pubDate>Thu, 04 Feb 2016 15:11:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-56-20160204.1511.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-56</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-55 (20160204.1510) --- Alkaline Electrolyte and Fe Impurity Effects on the Performance and Active-Phase Structure of {NiOOH} Thin Films for {OER} Catalysis Applications</title>
-        <description>The kitchingroup-55 package in MELPA has been updated to version 20160204.1510.</description>
-        <pubDate>Thu, 04 Feb 2016 15:10:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-55-20160204.1510.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-55</link>
       </item>
     
       <item>
@@ -106,70 +154,6 @@
         <pubDate>Thu, 04 Feb 2016 15:08:00 -0500</pubDate>
         <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-43-20160204.1508.tar</guid>
         <link>https://melpa.org/#/kitchingroup-43</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-46 (20160204.1508) --- Electrocatalytic Oxygen Evolution With an Immobilized {TAML} Activator</title>
-        <description>The kitchingroup-46 package in MELPA has been updated to version 20160204.1508.</description>
-        <pubDate>Thu, 04 Feb 2016 15:08:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-46-20160204.1508.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-46</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-52 (20160204.1435) --- Relationships Between the Surface Electronic and Chemical Properties of Doped 4d and 5d Late Transition Metal Dioxides</title>
-        <description>The kitchingroup-52 package in MELPA has been updated to version 20160204.1435.</description>
-        <pubDate>Thu, 04 Feb 2016 14:35:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-52-20160204.1435.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-52</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-47 (20160203.847) --- Probing the Coverage Dependence of Site and Adsorbate Configurational Correlations on (111) Surfaces of Late Transition Metals</title>
-        <description>The kitchingroup-47 package in MELPA has been updated to version 20160203.847.</description>
-        <pubDate>Wed, 03 Feb 2016 08:47:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-47-20160203.847.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-47</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-44 (20160203.718) --- Identifying Potential \ce{BO2} Oxide Polymorphs for Epitaxial Growth Candidates</title>
-        <description>The kitchingroup-44 package in MELPA has been updated to version 20160203.718.</description>
-        <pubDate>Wed, 03 Feb 2016 07:18:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-44-20160203.718.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-44</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-59 (20160203.1910) --- Tuning Oxide Activity Through Modification of the Crystal and  Electronic Structure: From Strain To Potential Polymorphs</title>
-        <description>The kitchingroup-59 package in MELPA has been updated to version 20160203.1910.</description>
-        <pubDate>Wed, 03 Feb 2016 19:10:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-59-20160203.1910.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-59</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-42 (20160203.1909) --- Relating the Electronic Structure and Reactivity of the 3d Transition Metal Monoxide Surfaces</title>
-        <description>The kitchingroup-42 package in MELPA has been updated to version 20160203.1909.</description>
-        <pubDate>Wed, 03 Feb 2016 19:09:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-42-20160203.1909.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-42</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-53 (20160203.1334) --- Accurate Electronic and Chemical Properties of 3d Transition Metal Oxides Using a Calculated Linear Response {U} and a {DFT + U(V)} Method</title>
-        <description>The kitchingroup-53 package in MELPA has been updated to version 20160203.1334.</description>
-        <pubDate>Wed, 03 Feb 2016 13:34:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-53-20160203.1334.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-53</link>
-      </item>
-    
-      <item>
-        <title>kitchingroup-48 (20160203.1118) --- Effects of Concentration, Crystal Structure, Magnetism, and Electronic Structure Method on First-Principles Oxygen Vacancy Formation Energy Trends in Perovskites</title>
-        <description>The kitchingroup-48 package in MELPA has been updated to version 20160203.1118.</description>
-        <pubDate>Wed, 03 Feb 2016 11:18:00 -0500</pubDate>
-        <guid isPermaLink="true">https://melpa.org/packages/kitchingroup-48-20160203.1118.tar</guid>
-        <link>https://melpa.org/#/kitchingroup-48</link>
       </item>
     
       <item>
